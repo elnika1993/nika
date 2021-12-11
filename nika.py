@@ -8,8 +8,8 @@ if answer == 1 and lari == 300:
 elif answer == 2 and lari == 350:
     print("Also not my fault.")
 elif answer == 1:
-    print(lari * usd)
+    print("You'll get: ", lari / usd, "USD")
 elif answer == 2:
-    print(lari * euro)
+    print("You'll get: ", lari / euro, "EURO")
 else:
     print("This is error.")
